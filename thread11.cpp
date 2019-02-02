@@ -63,7 +63,7 @@ int main(){
 
     ///lambda
     auto fun = [](const string str) { cout << str << endl; };
-    fun("balis love lambda 1");
+    fun("huahua love lambda 1");
     fun("alice love lambda 2");
     thread th3([]() {
         auto begin = chrono::system_clock::now().time_since_epoch() / chrono::seconds(1);
