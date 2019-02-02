@@ -1,5 +1,5 @@
 /* *
- * balisyin 20180203
+ * balisyin 20190203
  * c++11 thread
  * compile:g++ thread.cpp -std=c++11 -pthread
  * */
