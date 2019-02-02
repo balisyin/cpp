@@ -77,7 +77,7 @@ int main(){
     });
     th3.join();
 
-    thread th4(show_va, "balis wanna be %s%c%dpp%2.1f\n", "algo", 'r', 24, 0.9);
+    thread th4(show_va, "alice wanna be %s%c%dpp%2.1f\n", "algo", 'r', 24, 0.9);
     th4.detach();
     this_thread::sleep_for(chrono::seconds(1));
     this_thread::yield();
