@@ -1,7 +1,7 @@
 /* *
  * balisyin 20190203
  * c++11 thread
- * compile:g++ thread.cpp -std=c++11 -pthread
+ * compile:g++ thread11.cpp -std=c++11 -pthread
  * */
 #include<thread>
 #include<iostream>
